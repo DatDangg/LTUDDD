@@ -2,6 +2,9 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools">
 
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
     <application
         android:allowBackup="true"
         android:dataExtractionRules="@xml/data_extraction_rules"
@@ -13,8 +16,8 @@
         android:theme="@style/Theme.AppCompat.Light"
         tools:targetApi="31">
         <activity
-            android:name=".tuan3.Tuan3MainActivity"
-            android:exported="true" >
+            android:name=".tuan4_2.Tuan42MainActivity"
+            android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -22,28 +25,34 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".tuan2_2.Tuan22v1MainActivity"
-            android:exported="false" />
-        <activity
-            android:name=".tuan2_2.tuan22Main2Activity"
+            android:name=".tuan4_1.Tuan41MainActivity"
             android:exported="true">
 
         </activity>
         <activity
+            android:name=".tuan3.Tuan3MainActivity"
+            android:exported="true" />
+        <activity
+            android:name=".tuan2_2.Tuan22v1MainActivity"
+            android:exported="false" />
+        <activity
+            android:name=".tuan2_2.tuan22Main2Activity"
+            android:exported="true" />
+        <activity
             android:name=".tuan2_2.Tuan21Main2Activity"
-            android:exported="true"></activity>
+            android:exported="true" />
         <activity
             android:name=".tuan2_1.Tuan22MainActivity"
-            android:exported="true"></activity>
+            android:exported="true" />
         <activity
             android:name=".tuan2_1.Tuan21v1MainActivity"
             android:exported="false" />
         <activity
             android:name=".tuan2_1.Tuan21MainActivity"
-            android:exported="true"></activity>
+            android:exported="true" />
         <activity
             android:name=".tuan1.Tuan1MainActivity"
-            android:exported="true"></activity>
+            android:exported="true" />
         <activity
             android:name=".MainActivity"
             android:exported="true"
