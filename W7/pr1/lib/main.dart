@@ -50,7 +50,7 @@ class _ProductListScreenState extends State<ProductListScreen>{
     }
     else
       {
-        throw Exception("Khong doc duoc du lieu");
+        throw Exception("Khong doc du lieu");
       }
   }
   
